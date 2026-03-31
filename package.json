@@ -1,0 +1,15 @@
+{
+    "name": "Neovera-Bot",
+    "author": "Zar",
+    "version": "0.0.1",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "keywords": [],
+    "imports": {},
+    "dependencies": {
+        "baileys": "github:WhiskeySockets/Baileys"
+    }
+}
