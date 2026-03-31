@@ -1,12 +1,11 @@
 import makeWAsocket, { useMultiFileAuthState, fetchLatestWaWebVersion } from "baileys";
 
-const { state, saveCreds } = useMultiFileAuthStste('/auth')
+const { state, saveCreds } = useMultiFileAuthState('/auth')
 const { version } = await fetchLatestWaWebVersion()
 
 const sock = makeWAsocket({
   version,
-  browser: Browsers.android("chrome"),
-  syncFullHistory: true,
+  syncFullHistory: false,
   printQRInTerminal: false
 });
 
