@@ -1,4 +1,4 @@
-import makeWAsocket, { useMultiFileAuthStste, fetchLatestWaWebVersion } from "baileys";
+import makeWAsocket, { useMultiFileAuthState, fetchLatestWaWebVersion } from "baileys";
 
 const { state, saveCreds } = useMultiFileAuthStste('/auth')
 const { version } = await fetchLatestWaWebVersion()
